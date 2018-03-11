@@ -1,0 +1,69 @@
+/* General Styles */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Taviraj', serif;
+	color: #fff;
+	background-image: url("../images/space.jpg");
+	text-transform: uppercase;
+
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+
+/* Main Content */
+.maincontent {
+	display: flex;
+	justify-content: center;
+	padding-top: 10%;
+}
+
+.weather {
+	background-color: rgba(0, 0, 128, 0.5);
+	height: 350px;
+	width: 700px;
+	padding: 50px;
+}
+
+.temperatureinputs {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.formfield {
+	display: inline-block;
+	text-align: center;
+	margin-left: 20px
+}
+
+input {
+	height: 40px;
+	width: 100px;
+}
+
+/* button */
+button {
+	background-color: #54BBE8;
+	font-weight: 900;
+	color: #fff;
+	text-decoration: none;
+	border: 0px;
+	padding: 10px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
